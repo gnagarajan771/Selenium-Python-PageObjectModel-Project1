@@ -1,0 +1,34 @@
+{
+  "login_credentials": {
+    "correct_username": "Admin",
+    "correct_password": "admin123",
+    "incorrect_username": "xyz",
+    "incorrect_password": "zyx",
+    "blank_username": "",
+    "blank_password": ""
+  },
+  "employee_info": {
+    "f_name": "Benjamin",
+    "m_name": "Hobart",
+    "l_name": "Z",
+    "bg": "AB+",
+    "nickname": "Ben",
+    "other_id": "99900-99-99",
+    "drivers_license": "123-3334445",
+    "license_expiry_date": "2025-08-15",
+    "ssn": "777-11-2222",
+    "sin": "000-11-3333",
+    "nationality": "American",
+    "marital_status": "Married",
+    "dob": "1985-10-15",
+    "gender": "Male",
+    "military": "No",
+    "smoker": "On"
+
+  },
+  "delete_employee_info": {
+    "f_name": "Dank",
+    "m_name": "K",
+    "l_name": "F"
+  }
+}
