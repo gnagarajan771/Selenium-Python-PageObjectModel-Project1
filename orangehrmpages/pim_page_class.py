@@ -71,9 +71,9 @@ class HRM_PIM_Page:
         self.my_driver.find_element(By.NAME, self.emp_first_name).send_keys(f_name)
         self.my_driver.find_element(By.NAME, self.emp_middle_name).send_keys(m_name)
         self.my_driver.find_element(By.NAME, self.emp_last_name).send_keys(l_name)
-        self.my_driver.find_element(By.XPATH, self.pim_add_img_btn).click()
-        time.sleep(5)
-        self.auto_it_upload()
+        # self.my_driver.find_element(By.XPATH, self.pim_add_img_btn).click()
+        # time.sleep(5)
+        # self.auto_it_upload()
         time.sleep(5)
         self.my_driver.find_element(By.XPATH, self.save_btn).click()
         try:
