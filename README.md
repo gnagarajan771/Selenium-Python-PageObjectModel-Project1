@@ -1,2 +1,3 @@
-# gui_project_at15_orange_hrm
-GUVI Project Submission
+Selenium-Python-PageObjectModel-Project1
+
+The master branch contains the relevant project folders for Selenium-Python Page Object Model.
