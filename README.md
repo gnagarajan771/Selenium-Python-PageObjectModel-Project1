@@ -1,4 +1,6 @@
-This is a Project Folder for "AT15 Project 1 -- Page Object Model(POM) using Selenium-Python Unittest Framework"
+This one of the capstone projects that was assigned to the GUVI Training Batch AT15.
+Project 1 : Implement Page Object Model(POM) using Selenium-Python Unittest Framework
+
 The master branch contains the relevant project folders.
 
 Please see below for a brief description of the project folders:-
