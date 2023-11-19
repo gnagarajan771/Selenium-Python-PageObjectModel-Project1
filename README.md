@@ -1,4 +1,4 @@
-This is a Project Folder for "AT15 Project 1 -- Page Object Model(POM)/Selenium-Python Unittest Framework"
+This is a Project Folder for "AT15 Project 1 -- Page Object Model(POM) using Selenium-Python Unittest Framework"
 The master branch contains the relevant project folders.
 
 Please see below for a brief description of the project folders:-
