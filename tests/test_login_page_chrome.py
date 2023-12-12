@@ -12,8 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from orangehrmpages.login_page_class import Hrm_Login_Pg
 from utilities.org_hrm_helper import org_hrm_logout
 from utilities.util import check_for_title, take_screenshot
-import ChromeDriverManager
-
+import chromedriver_autoinstaller
 
 class LoginPgTestClass(unittest.TestCase):
     driver = None
@@ -26,7 +25,8 @@ class LoginPgTestClass(unittest.TestCase):
         json_file_path = cwd_one_up + "\\data_source\\org_hrm_test_data.json"
         with open(json_file_path) as json_file:
             cls.data_dict = json.load(json_file)
-        cls.driver = webdriver.Chrome(ChromeDriverManager().install())
+        chromedriver_autoinstaller.install()
+        # cls.driver = webdriver.Chrome(ChromeDriverManager().install())
         cls.driver = webdriver.Chrome()
         cls.driver.maximize_window()
         cls.driver.implicitly_wait(15)
