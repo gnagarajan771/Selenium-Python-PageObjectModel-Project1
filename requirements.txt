@@ -1,0 +1,2 @@
+selenium~=4.11.2
+multipledispatch~=1.0.0
